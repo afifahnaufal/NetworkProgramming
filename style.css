@@ -1,0 +1,177 @@
+/* Reset dan Styling Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e0f7fa, #f8bbd0);
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+.header-container {
+    background: linear-gradient(135deg, #d700a1, #ff4081);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header-container p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Main Container Styling */
+.main-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.main-container:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Form Section */
+.form-section {
+    margin-bottom: 2rem;
+}
+
+.form-input {
+    margin-bottom: 1.5rem;
+}
+
+.form-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+    font-size: 1rem;
+}
+
+.form-input input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-input input:focus {
+    border-color: #0078D7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(135deg, #ff4081, #d700a1);
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #d700a1, #ff4081);
+    transform: scale(1.05);
+}
+
+/* Output Section */
+.output-section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.result-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    background-color: #f1f8ff;
+    padding: 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.result-item:hover {
+    transform: scale(1.05);
+}
+
+.result-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.result-value {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0078D7;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: linear-gradient(135deg, #d700a1, #ff4081);
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px -6px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+    font-weight: 500;
+}
